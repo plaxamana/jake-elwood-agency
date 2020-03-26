@@ -1,0 +1,54 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* ==============
+   Typography
+   ==============
+*/
+
+h1 {
+  font-size: 1.9375rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3,
+.hero-subheading {
+  font-size: 1.125rem;
+}
+
+strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo,
+.amp {
+  font-family: 'Basic Sans', sans-serif;
+}
+
+.logo > span {
+  font-weight: 400;
+}
+
+.hero-heading,
+.hero-subheading span {
+  font-weight: 700;
+}
+
+.hero-subheading span {
+  color: #FFE600;
+}
+

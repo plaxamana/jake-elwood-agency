@@ -2,7 +2,7 @@
 
 We’re two brothers from Chicago that are trying to pay back our debt. We can help you with SEO, SEM content marketing and whatever else.
 
-##About Us
+## About Us
 
 We grew up in downtown Chicago, and we used to play in a band. Jake loves fried chicken, and Elwood loves dry white toast.
 
