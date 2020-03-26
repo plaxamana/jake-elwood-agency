@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -18,9 +23,19 @@ h2 {
   font-size: 1.5rem;
 }
 
+.hero-heading span,
+.hero-subheading span {
+  color: #FFE600;
+}
+
 h3,
 .hero-subheading {
   font-size: 1.125rem;
+}
+
+.hero-heading,
+.hero-subheading {
+  margin-bottom: 1em;
 }
 
 strong {
@@ -29,9 +44,24 @@ strong {
 }
 
 a {
+  display: inline-block;
   font-size: 0.875rem;
   text-decoration: none;
+}
+
+.hero-call-to-action {
+  margin-top: 1em;
+  background: #FFE600;
   color: #000;
+  font-weight: 700;
+  padding: .75em 1.5em;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+.hero-call-to-action:hover,
+.hero-call-to-action:focus {
+  transform: scale(1.1);
 }
 
 .logo,
@@ -48,7 +78,77 @@ a {
   font-weight: 700;
 }
 
-.hero-subheading span {
-  color: #FFE600;
+
+/* ==============
+   Layout
+   ==============
+*/
+
+.container,
+.hero-section,
+.info-section,
+.footer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content,
+.info-section,
+.footer-content {
+  margin: 3em auto;
+  max-width: 80%;
+}
+
+.hero-section {
+  color: #FFF;
+  background: #000;
+}
+
+.info-card {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.info-section:last-child {
+  margin-bottom: 0;
+}
+
+.info-title {
+  margin-bottom: 1em;
+  /* border-bottom: 2px solid #FFE600; */
+}
+
+.info-body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.about-company .logo,
+.footer-social-media,
+.footer-body {
+  margin-bottom: 0.5em;
+}
+
+.about-company,
+.footer-social-media {
+  margin-bottom: 2em;
+}
+
+/* .footer-social-media {
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: space-between;
+} */
+
+.footer-content {
+  text-align: center;
+}
+
+.footer {
+  color: rgba(0, 0, 0, .3);
+  background: #EBEBEB;
+  padding: 2em 0;
 }
 
