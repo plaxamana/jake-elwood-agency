@@ -5,55 +5,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jack & Elwood | Marketing Agency</title>
+
+  <!-- CSS styles -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/dez5lfe.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- font-awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
 <body>
-  <div class="container">
-    <div class="hero-section">
-      <div class="hero-content">
-        <h2 class="hero-heading">The only marketing agency on <span>a mission from God</span>, fully dedicated to increase
-          your web traffic. </h2>
-        <p class="hero-subheading">We’re two brothers from Chicago that are trying to pay back our debt. We can help you
-          with <span>SEO, SEM content marketing</span> and whatever else.</p>
-        <a href="#" class="hero-call-to-action">contact us</a>
-      </div>
+  <!-- <header class="header header-home main-grid">
+    <div class="header-content">
+      <a class="logo-link" href="index.html">
+        <img src="img/logo.png" alt="" class="logo">
+      </a>
+      <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+
+      <nav class="nav">
+        <button aria-label="Close navigation" class="close-nav">&times;</button>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="info-section">
-      <div class="info-card">
-        <h3 class="info-title">About Us</h3>
-        <p class="info-body">We grew up in downtown Chicago, and we used to play in a band. <strong>Jake loves fried
-            chicken</strong>, and <strong>Elwood loves dry white toast</strong>.</p>
+  </header> -->
+
+  <main>
+    <section class="hero main-grid">
+      <h1 class="hero-title">The only marketing agency on <span class="accent-color">a mission from God</span>, fully
+        dedicated to increase your web traffic. </h1>
+      <p class="subtitle">We’re two brothers from Chicago that are trying to pay back our debt. We can help you with
+        <strong>SEO, SEM content marketing</strong> and whatever else.</p>
+      <a href="index.html" class="btn btn-primary">contact</a>
+    </section>
+
+    <section class="info main-grid">
+      <div class="col">
+        <h2 class="section-title section-title-center">About Us</h2>
+        <p>We grew up in downtown Chicago, and we used to play in a band. <strong>Jake loves fried chicken</strong>, and
+          <strong>Elwood loves dry white toast</strong>.</p>
       </div>
-      <div class="info-card">
-        <h3 class="info-title">Our Skills</h3>
-        <p class="info-body">Elwood is an expert in <strong>SEO, SEM, and driving from the police</strong>. Jake is our
-          <strong>social media specialist</strong>, and he has an amazing voice.</p>
+      <div class="col">
+        <h2 class="section-title section-title-center">Our skills</h2>
+        <p>Elwood is an expert in <strong>SEO, SEM, and driving from the police</strong>. Jake is our <strong>social
+            media specialist</strong>, and he has an amazing voice.</p>
       </div>
-      <div class="info-card">
-        <h3 class="info-title">Get in touch</h3>
-        <p class="info-body">Send us an email with some info about what help you need and <strong>we’ll drive over to
-            your place</strong> in our Bluesmobile the following day to discuss the deal.</p>
+      <div class="col">
+        <h2 class="section-title section-title-center">Get in touch</h2>
+        <p>Send us an email with some info about what help you need and <strong>we’ll drive over to your place</strong>
+          in our Bluesmobile the following day to discuss the deal.</p>
       </div>
+    </section>
+
+  </main>
+
+  <footer class="footer main-grid">
+    <div class="footer-main">
+      <img src="img/logo.png" alt="" class="footer-logo">
+      <p class="footer-text">Two brothers from Chicago that are just trying to pay back their debt by helping others
+        with their SEO, SEM, and Content Marketing needs.</p>
+      <p class="footer-fineprint">© Jake&Elwood 2019</p>
     </div>
-    <div class="footer">
-      <div class="footer-content">
-        <div class="footer-social-media">
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-twitter-square"></i>
-          <i class="fab fa-instagram"></i>
-        </div>
-        <div class="about-company">
-          <h1 class="logo">Jake<span>&</span>Elwood</h1>
-          <p class="footer-body">Two brothers from Chicago that are just trying to pay back their debt by helping others with their SEO, SEM, and Content Marketing needs.</p>
-        </div>
-        <p class="copyright">© Jake&Elwood 2020</p>
-      </div>
-    </div>
-  </div>
+    <ul class="social-list">
+      <li class="social-item"><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+      <li class="social-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+      <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+    </ul>
 </body>
 
 </html>
