@@ -61,6 +61,10 @@ strong {
   margin-bottom: 0;
 }
 
+.hero-subtitle {
+  font-size: 1.125rem;
+}
+
 .section-title {
   font-size: 1.125rem;
   color: #000;
@@ -93,12 +97,18 @@ strong {
   margin-top: .5em;
   text-decoration: none;
   border: 0;
+  cursor: pointer;
 }
 
 .btn-primary {
   background: #FFE600;
   color: #000;
   justify-self: start;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #FFC400;
 }
 
 .btn-form {
@@ -201,6 +211,10 @@ strong {
   padding: .5em;
   margin-left: auto;
   font-size: 1.5em;
+}
+
+.current {
+  border-bottom: 1px solid #FFE600;
 }
 
 @media only screen and (min-width: 600px) {
