@@ -84,10 +84,17 @@ strong {
 .nav {
   position: fixed;
   background: #000;
+  width: 100%;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 100%;
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+
+.navigation-open {
+  transform: translateX(-100%);
 }
 
 .nav-list {
@@ -111,6 +118,26 @@ strong {
 .nav-link:hover,
 .nav-link:focus {
   color: #FFE600;
+}
+
+.close-nav {
+  border: 0;
+  background: 0;
+  color: #FFE600;
+  font-size: 3em;
+  cursor: pointer;
+  padding: .5em;
+  position: absolute;
+}
+
+.open-nav {
+  border: 0;
+  background: 0;
+  color: #FFF;
+  cursor: pointer;
+  padding: .5em;
+  margin-left: auto;
+  font-size: 1.5em;
 }
 
 /* footer */
